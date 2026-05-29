@@ -126,5 +126,12 @@ The tool generates a timestamped JSON report with findings:
 | json | Report generation |
 | datetime | Timestamp tracking |
 
+## Key Takeaways
+- **Run regularly** – Schedule this tool weekly or monthly to catch new misconfigurations
+- **Fix critical failures first** – Public S3 buckets and disabled MFA are the highest risk
+- **Warnings matter** – Stale access keys and missing versioning should be addressed within 30 days
+- **Share reports** – Export JSON findings to compliance teams or management for audit trails
+- **Automation ready** – Use with CI/CD pipelines to enforce security policies automatically
+
 ## Author
 Aadharsh Anbuchezhian
